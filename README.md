@@ -84,3 +84,16 @@ The following activities will be documented as they are completed:
 The long-term goal of this project is to develop a working understanding of enterprise Windows environments and the responsibilities commonly performed by help desk technicians, desktop support specialists, and junior systems administrators.
 
 This repository will be updated as additional exercises are completed.
+### Domain Controller Verification
+
+After installing Active Directory Domain Services, I promoted DC01 to a domain controller for the `ad.hindsight.test` domain.
+
+Using Active Directory Users and Computers (ADUC), I verified that:
+
+- The domain `ad.hindsight.test` was accessible.
+- DC01 appeared in the Domain Controllers organizational unit.
+- DC01 was identified as a Global Catalog (GC) server.
+
+The screenshot below documents the successful registration of DC01 in Active Directory.
+
+![DC01 Domain Controller Verification](screenshots/DC01-Domain-Controller.png)
