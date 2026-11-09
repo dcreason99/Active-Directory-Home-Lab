@@ -97,3 +97,47 @@ Using Active Directory Users and Computers (ADUC), I verified that:
 The screenshot below documents the successful registration of DC01 in Active Directory.
 
 ![DC01 Domain Controller Verification](DC01-Domain-Controller.png)
+
+## Active Directory User Account Management
+
+### Organizational Unit Configuration
+
+Created a fictional company structure within the `ad.hindsight.test` domain to simulate an enterprise Active Directory environment.
+
+Organizational units created:
+
+- Hindsight-Corp
+  - IT
+  - Human Resources
+  - Sales
+  - Workstations
+
+### Employee Account Creation
+
+Created a fictional employee account for Daniel Reeves (`dreeves`) within the IT organizational unit.
+
+Configured the following attributes:
+- Job title: Junior IT Support Specialist
+- Department: IT
+- Company: Hindsight-Corp
+- Required password change at next logon
+
+### Help Desk Exercise: Password Reset
+
+Simulated a help desk ticket in which an employee forgot their password.
+
+**Actions performed:**
+1. Located the employee account using Active Directory Users and Computers.
+2. Opened the password reset interface.
+3. Assigned a new temporary password.
+4. Required the employee to change their password at next logon.
+5. Received confirmation that the password reset was successful.
+
+**Skills demonstrated:**
+- Active Directory user provisioning
+- Organizational Unit management
+- User account administration
+- Password reset procedures
+- Basic identity and access management
+
+**Note:** The password reset was confirmed in Active Directory. Authentication using the new password will be tested after configuring a domain-joined Windows client.
