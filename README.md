@@ -96,4 +96,4 @@ Using Active Directory Users and Computers (ADUC), I verified that:
 
 The screenshot below documents the successful registration of DC01 in Active Directory.
 
-![DC01 Domain Controller Verification](screenshots/DC01-Domain-Controller.png)
+![DC01 Domain Controller Verification](DC01-Domain-Controller.png)
