@@ -141,3 +141,8 @@ Simulated a help desk ticket in which an employee forgot their password.
 - Basic identity and access management
 
 **Note:** The password reset was confirmed in Active Directory. Authentication using the new password will be tested after configuring a domain-joined Windows client.
+
+The screenshots below document the successful creating of the OU as well as creating and configuring the user:
+![Hindsight-Corp OU Structure](Hindsight-Corp-OUs.png)
+
+![Daniel Reeves Account](Daniel-Reeves-Account.png)
