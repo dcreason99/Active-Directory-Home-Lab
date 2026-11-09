@@ -146,3 +146,19 @@ The screenshots below document the successful creating of the OU as well as crea
 ![Hindsight-Corp OU Structure](Hindsight-Corp-OUs.png)
 
 ![Daniel Reeves Account](Daniel-Reeves-Account.png)
+
+### Active Directory Security Group Management
+
+Created a Global Security group named `SG-IT-Support` within the Hindsight-Corp IT organizational unit.
+
+Added the fictional employee Daniel Reeves (`dreeves`) to the group and verified his membership using Active Directory Users and Computers.
+
+**Skills practiced:**
+- Creating Active Directory security groups
+- Understanding group scope and type
+- Managing user group memberships
+- Verifying group membership
+
+![IT Security Group Membership](IT-Security-Group-Membership.png)
+
+**Next objective:** Configure access permissions for a shared folder using Active Directory security groups.
